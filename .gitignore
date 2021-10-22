@@ -1,0 +1,30 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+/server/config/sslcerts/rootCA.crt
+/server/config/sslcerts/rootCA.key
+/server/config/sslcerts/rootCA.pem
+/server/config/sslcerts/rootCA.srl
+/server/config/sslcerts/server.crt
+/server/config/sslcerts/server.csr
+/server/config/sslcerts/server.key
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
